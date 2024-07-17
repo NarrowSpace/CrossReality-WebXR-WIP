@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Red Prismatic Card Front
+  m_Shader: {fileID: -6465566751694194690, guid: 5fdfc8fd84622df4cb0873582e08e5f1,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _SampleTexture2D_8e9121a0dc9c4d97bd40d8237b264d19_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 9ef2cf6c7f6597342a91b085d6cffc18, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_a50ea3751b8d461fa38c6269705d7637_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 16443ea510cc5d24381b39ac194c7ed0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Effects_Strength: 2.1
+    - _Fluency: 10
+    - _Power: 6.08
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Strength: 4.29
+    m_Colors:
+    - _Card_Base_Color: {r: 1, g: 0.10275764, b: 0, a: 0}
+    - _Effects_Tilling: {r: 1, g: 1, b: 0, a: 0}
+    - _Shapes: {r: -0.36, g: 1.55, b: 0, a: 0}
+    - _Wave_Tilling: {r: 0.7, g: 1.04, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &1686604139990602530
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
