@@ -1,8 +1,8 @@
 {
   "dependencies": {
     "com.needle.engine-exporter": {
-      "version": "3.41.1-exp",
-      "depth": 1,
+      "version": "3.47.0-pre",
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "org.khronos.unitygltf": "2.12.0",
@@ -19,7 +19,7 @@
       "url": "https://packages.needle.tools"
     },
     "com.needle.engine-samples": {
-      "version": "0.17.1",
+      "version": "0.17.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -37,6 +37,15 @@
       "dependencies": {
         "com.unity.mathematics": "1.2.1",
         "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.cinemachine": {
+      "version": "2.9.7",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.31"
       },
       "url": "https://packages.unity.com"
     },
@@ -117,7 +126,7 @@
     },
     "com.unity.nuget.newtonsoft-json": {
       "version": "3.2.1",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -171,7 +180,7 @@
     },
     "com.unity.sharp-zip-lib": {
       "version": "1.3.2-preview",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -229,7 +238,7 @@
     },
     "org.khronos.unitygltf": {
       "version": "2.12.0",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "2.0.0",

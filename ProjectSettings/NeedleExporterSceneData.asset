@@ -25,11 +25,16 @@ MonoBehaviour:
     BuilderScene: 
   - Path: Assets/Scenes/Cardboard Game.unity
     Projects:
-    - ProjectPath: Needle/Cardboard Game
+    - ProjectPath: Library/Needle/Sample
     BuilderScene: 
   - Path: Assets/LowPoly Environment Pack/Demo/Demo 1.unity
     Projects: []
     BuilderScene: 
+  - Path: Assets/Samples/Needle Engine/Networking Player.unity
+    Projects:
+    - ProjectPath: Library/Needle/Sample
+    BuilderScene: 
   Projects:
   - ProjectPath: Needle/newProject
   - ProjectPath: Needle/Cardboard Game
+  - ProjectPath: Library/Needle/Sample

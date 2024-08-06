@@ -1,6 +1,8 @@
 {
   "dependencies": {
-    "com.needle.engine-samples": "0.17.1",
+    "com.needle.engine-exporter": "3.47.0-pre",
+    "com.needle.engine-samples": "0.17.2",
+    "com.unity.cinemachine": "2.9.7",
     "com.unity.cloud.ktx.webgl-2022": "1.0.1",
     "com.unity.collab-proxy": "2.4.3",
     "com.unity.ide.rider": "3.0.27",

@@ -23,7 +23,7 @@ export class SpawnPointHandler extends Behaviour {
         options.maxDistance = 2;
 
         // Choose a random spawn point that is not occupied
-        let spot: Object3D | undefined;
+        let spot: Object3D | undefined = undefined;
 
         // Select the spawn point for the current player based on the playerCount.
         // const spot = this.spawnPoints[this.playerCount];
