@@ -8,10 +8,11 @@ namespace Needle.Typescript.GeneratedComponents
 	public partial class ChaDragState : UnityEngine.MonoBehaviour
 	{
 		public UnityEngine.Animator @chaAnimator;
+		public UnityEngine.Camera @screenshotCam;
 		public void awake(){}
 		public void start(){}
-		public void onPointerDown(UnityEngine.EventSystems.PointerEventData @args){}
-		public void onPointerUp(UnityEngine.EventSystems.PointerEventData @args){}
+		public void onPointerDown(UnityEngine.EventSystems.PointerEventData @_args){}
+		public void onPointerUp(UnityEngine.EventSystems.PointerEventData @_args){}
 		public void update(){}
 	}
 }
